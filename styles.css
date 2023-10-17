@@ -21,6 +21,8 @@ html {
     width: 150px;
     margin-right: auto;
     margin-bottom: auto;
+        display: flex;
+    justify-content: flex-end;
 }
 .main {
     background-color: #1F2937;
@@ -51,12 +53,11 @@ html {
     justify-content: flex-end;
 }
 .banner {
-    align-self: right;
+    height: 300px;
+    width: 650px;
     order: 2;
-    padding-top: auto;
-    padding-bottom: auto;
     padding-right: 50px;
-    margin-left: auto;
+    margin-left: 500px;
     margin-top: 50px;
     margin-bottom: 50px;
     max-width: 100%;
@@ -67,7 +68,6 @@ html {
     display: inline-block;
     text-align: center;
     font-family: 'Fira Code'; 
-    font: bold;
     order: 1;
     justify-content: center;
 }
@@ -76,14 +76,12 @@ html {
     background-color: #86A2B3;
 }
 .aboutme {
-    padding-top: auto;
-    padding-bottom: auto;
     text-align: center;
 }
 
 #footer {
-    height: 1000px;
-    background-color: #72A0C1;
+    height: 300px;
+    background-color: #C0C0C0;
     text-align: center;
 }
 .contacts {
@@ -91,10 +89,13 @@ html {
     justify-content: flex-end;
 }
 .info {
+    color: #B0E0E6;
     flex: 1;
-    border-radius: 25px;
-    border: 2px solid darkcyan;
+    border-radius: 50px;
+    border: 30px solid #696969;
+    background-image: linear-gradient(to bottom, #393e46 , gray);
     padding: 20px; 
+    margin: 30px;
     width: 200px;
     height: 150px;  
 }
