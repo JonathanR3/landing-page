@@ -48,24 +48,29 @@ html {
     align-items: center;
 }
 
-.personalHeading {
+.personal-heading {
+    margin-top: 75px;
     background-color: #1F2937;
-    text-align: center;
+    height: 300px;
+    align-items: center;
     color: #86A2B3;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .projects {
-    display: flex;
+    display: inline;
+    align-items: center;
     color: beige;
     text-align: Justify;
     list-style-type: none;
+    justify-content: center;
 }
 
-.project {
-    flex: 0;
-    justify-content: center;
-    margin: auto;
+.project-img {
+    border-radius: 5px;
 }
+
 
 .links {
     padding: 10px 25px;
@@ -77,6 +82,7 @@ html {
     height: 600px;
     background-color: #6C85DE;
     display:flex;
+    border-radius: 20px 20px 0px 0px;
     align-items: center;
     justify-content: flex-end;
 }
@@ -109,6 +115,7 @@ html {
 }
 
 #footer {
+    border-radius: 0px 0px 20px 20px;
     height: 300px;
     background-color: #C0C0C0;
     text-align: center;
@@ -121,7 +128,7 @@ html {
     color: #B0E0E6;
     flex: 1;
     border-radius: 50px;
-    border: 30px solid #696969;
+    border: 10px solid #696969;
     background-image: linear-gradient(to bottom, #393e46 , gray);
     padding: 20px; 
     margin: 30px;
